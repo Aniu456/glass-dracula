@@ -1,0 +1,10 @@
+[extension]
+id = "glass-dracula"
+name = "Glass Dracula"
+description = "A translucent glass background with Dracula-inspired syntax highlighting, optimized for dark transparent editors"
+version = "0.1.0"
+schema_version = 1
+authors = ["Aniu456 <https://github.com/Aniu456>"]
+repository = "https://github.com/Aniu456/glass-dracula"
+
+[themes]
