@@ -1,22 +1,35 @@
 # Glass Dracula for Zed
 
-A refined Dracula-inspired theme family by **BennyWu**, designed around one
-consistent syntax language with opaque and softly blurred dark and light UI
-variants.
+Glass Dracula is the Zed theme family I use and maintain. It combines the
+familiar Dracula accent palette with four carefully tuned dark, light, opaque,
+and blurred variants.
 
-## Included Themes
+## Themes
 
-- **Dracula Dark Vivid Black** — OLED-oriented opaque black
-- **Dracula Glass** — violet-tinted blurred dark surfaces
-- **Dracula Light Vivid White** — crisp porcelain-white editor
-- **Dracula Light Glass** — softly blurred light surfaces
+| Theme | Mode | Surface | Best for |
+| --- | --- | --- | --- |
+| **Dracula Dark Vivid Black** | Dark | Opaque | OLED displays and maximum contrast |
+| **Dracula Glass** | Dark | Blurred | A softer, violet-tinted dark workspace |
+| **Dracula Light Vivid White** | Light | Opaque | A crisp, high-contrast light workspace |
+| **Dracula Light Glass** | Light | Blurred | A softer translucent light workspace |
 
-## Design System
+My current Zed setup uses **Dracula Light Vivid White** in light mode and
+**Dracula Glass** in dark mode:
 
-All four variants share the same semantic color roles so code structure remains
-stable when switching between light and dark mode. Neutral punctuation and
-muted comments keep dense Rust, React/React Native, and Flutter code calm while
-preserving familiar Dracula accents:
+```json
+{
+  "theme": {
+    "mode": "light",
+    "light": "Dracula Light Vivid White",
+    "dark": "Dracula Glass"
+  }
+}
+```
+
+## Design
+
+All four variants share the same semantic syntax language, so code remains
+visually consistent when switching modes:
 
 - rose for keywords and JSX tags
 - green for functions and methods
@@ -26,11 +39,13 @@ preserving familiar Dracula accents:
 - orange for parameters and Rust lifetimes
 - neutral gray for punctuation and comments
 
-The opaque variants prioritize predictable contrast. The Glass variants add
-translucent surfaces and native blur while keeping editor text fully opaque.
+The opaque variants prioritize predictable contrast. The Glass variants use
+native blurred surfaces while keeping editor text fully opaque and readable.
+The themes are tuned for Rust, React/React Native, Flutter, and other
+Tree-sitter- and LSP-powered language modes.
 
-For the best language-aware highlighting, enable Tree-sitter and LSP semantic
-tokens together in Zed settings:
+For the most complete language-aware highlighting, combine Tree-sitter syntax
+highlighting with LSP semantic tokens:
 
 ```json
 {
@@ -38,19 +53,26 @@ tokens together in Zed settings:
 }
 ```
 
+## Install for Development
+
+In Zed, run `zed: install dev extension` from the command palette and select
+this repository.
+
+For direct local testing on Windows, copy the files from `themes/` to:
+
+```text
+%APPDATA%\Zed\themes
+```
+
+Reload Zed after replacing a theme file.
+
 ## Extension Metadata
 
-- `id`: `glass-dracula`
-- `name`: `Glass Dracula`
-- `version`: `0.2.0`
-- `repository`: `https://github.com/Aniu456/glass-dracula`
+- ID: `glass-dracula`
+- Version: `0.2.0`
+- Author: `BennyWu`
+- Repository: <https://github.com/Aniu456/glass-dracula>
 
-## Local Test
+## License
 
-Use `zed: install dev extension` and select this repository, or copy the JSON
-files from `themes/` into `%APPDATA%\Zed\themes` on Windows. Reload Zed after
-updating local theme files.
-
-## Publish
-
-For public Zed distribution, submit/update this extension through the Zed extensions registry workflow.
+Released under the [MIT License](LICENSE).
