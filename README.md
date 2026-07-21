@@ -69,7 +69,7 @@ Reload Zed after replacing a theme file.
 ## Extension Metadata
 
 - ID: `glass-dracula`
-- Version: `0.2.0`
+- Version: `0.3.0`
 - Author: `BennyWu`
 - Repository: <https://github.com/Aniu456/glass-dracula>
 
