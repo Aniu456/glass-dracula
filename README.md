@@ -1,27 +1,27 @@
 # Glass Dracula for Zed
 
-Glass Dracula is the Zed theme family I use and maintain. It combines the
-familiar Dracula accent palette with four carefully tuned dark, light, opaque,
-and blurred variants.
+Glass Dracula is the Zed theme family I use and maintain. It combines
+Dracula-inspired contrast with custom palettes across four carefully tuned
+dark and light variants, including opaque and blurred surfaces.
 
 ## Themes
 
 | Theme | Mode | Surface | Best for |
 | --- | --- | --- | --- |
-| **Dracula Dark Vivid Black** | Dark | Opaque | OLED displays and maximum contrast |
-| **Dracula Glass** | Dark | Blurred | A softer, violet-tinted dark workspace |
-| **Dracula Light Vivid White** | Light | Opaque | A crisp, high-contrast light workspace |
-| **Dracula Light Glass** | Light | Blurred | A softer translucent light workspace |
+| **Dracula Dark Vivid Black** | Dark | Opaque | Pure black with a high-saturation custom neon palette |
+| **Dracula Glass** | Dark | Blurred | Unified dark glass with a softer neon palette |
+| **Dracula Light Vivid White** | Light | Opaque | Crisp white with high-contrast custom syntax colors |
+| **Dracula Light Glass** | Light | Blurred | Unified Apple-neutral translucent glass |
 
-My current Zed setup uses **Dracula Light Vivid White** in light mode and
-**Dracula Glass** in dark mode:
+My current Zed setup uses **Dracula Light Glass** in light mode and
+**Dracula Dark Vivid Black** in dark mode:
 
 ```json
 {
   "theme": {
     "mode": "light",
-    "light": "Dracula Light Vivid White",
-    "dark": "Dracula Glass"
+    "light": "Dracula Light Glass",
+    "dark": "Dracula Dark Vivid Black"
   }
 }
 ```

@@ -16,72 +16,74 @@
                                                      "#805C00",
                                                      "#C1263A"
                                                  ],
-                                     "background":  "#FAFAFCD8",
+                                      "background":  "#F2F2F4E6",
                                      "background.appearance":  "blurred",
-                                     "elevated_surface.background":  "#FFFFFFF8",
-                                     "surface.background":  "#FAFAFCEE",
-                                     "element.background":  "#F1EFF8E6",
-                                     "element.hover":  "#ECE8F8EC",
-                                     "element.active":  "#E5DFF3F0",
-                                     "element.selected":  "#E4DBF8F2",
-                                     "element.disabled":  "#F8F8FACF",
-                                     "drop_target.background":  "#DCD6F1B3",
+                                      "elevated_surface.background":  "#F2F2F4E6",
+                                      "surface.background":  "#F2F2F4E6",
+                                      "element.background":  "#00000000",
+                                      "element.hover":  "#E5E5EA80",
+                                      "element.active":  "#D1D1D699",
+                                      "element.selected":  "#DADADFB3",
+                                      "element.disabled":  "#00000000",
+                                     "drop_target.background":  "#DCD6F1C6",
                                      "ghost_element.background":  "#00000000",
-                                     "ghost_element.hover":  "#F1EFF8E6",
-                                     "ghost_element.active":  "#E9E4F5EC",
-                                     "ghost_element.selected":  "#E4DBF8EE",
-                                     "ghost_element.disabled":  "#F8F8FAC7",
-                                     "text":  "#1C1C1EFF",
-                                     "text.muted":  "#5C5C63FF",
+                                      "ghost_element.hover":  "#E5E5EA66",
+                                      "ghost_element.active":  "#D1D1D680",
+                                      "ghost_element.selected":  "#DADADF99",
+                                      "ghost_element.disabled":  "#00000000",
+                                      "text":  "#11131BFF",
+                                      "text.muted":  "#3F4153FF",
                                      "text.placeholder":  "#77777FFF",
                                      "text.disabled":  "#9A9AA2FF",
                                      "text.accent":  "#6544D6FF",
                                      "icon":  "#3A3A3CFF",
-                                     "icon.muted":  "#5C5C63FF",
+                                      "icon.muted":  "#3F4153FF",
                                      "icon.disabled":  "#9A9AA2FF",
                                      "icon.placeholder":  "#77777FFF",
                                      "icon.accent":  "#6544D6FF",
-                                     "status_bar.background":  "#FAFAFCEE",
-                                     "title_bar.background":  "#FAFAFCEE",
-                                     "title_bar.inactive_background":  "#F5F4F9E8",
-                                     "toolbar.background":  "#FFFFFFF3",
-                                     "tab_bar.background":  "#F7F6FAEE",
-                                     "tab.inactive_background":  "#F7F6FAEE",
-                                     "tab.active_background":  "#FFFFFFF8",
+                                      "status_bar.background":  "#F2F2F4E6",
+                                      "title_bar.background":  "#F2F2F4E6",
+                                      "title_bar.inactive_background":  "#F2F2F4E6",
+                                      "toolbar.background":  "#F2F2F4E6",
+                                      "tab_bar.background":  "#E5E5EAE0",
+                                      "tab.inactive_background":  "#DADADFD8",
+                                      "tab.active_background":  "#FFFFFFF2",
                                      "search.match_background":  "#F2C94C55",
-                                     "panel.background":  "#FAFAFCEE",
-                                     "panel.focused_border":  "#6544D6",
-                                     "panel.indent_guide":  "#CACAD3FF",
-                                     "panel.indent_guide_active":  "#8E78D9FF",
-                                     "panel.indent_guide_hover":  "#B3A7D8FF",
-                                     "pane.focused_border":  "#6544D6",
-                                     "pane_group.border":  "#D9D6E4B8",
-                                     "border":  "#D9D6E4B8",
-                                     "border.variant":  "#E7E4EEB0",
-                                     "border.focused":  "#6544D6",
-                                     "border.selected":  "#6544D6",
+                                      "panel.background":  "#F2F2F4E6",
+                                      "panel.focused_border":  "#00000000",
+                                      "panel.indent_guide":  "#8E8E933D",
+                                      "panel.indent_guide_active":  "#6544D680",
+                                      "panel.indent_guide_hover":  "#8E8E9366",
+                                      "pane.focused_border":  "#00000000",
+                                      "pane_group.border":  "#00000000",
+                                      "border":  "#00000000",
+                                      "border.variant":  "#00000000",
+                                      "border.focused":  "#00000000",
+                                      "border.selected":  "#00000000",
                                      "border.transparent":  "#00000000",
-                                     "border.disabled":  "#E0DEE7FF",
-                                     "scrollbar.thumb.background":  "#8E8E9340",
-                                     "scrollbar.thumb.hover_background":  "#63636666",
+                                      "border.disabled":  "#00000000",
+                                      "scrollbar.thumb.background":  "#D1D1D640",
+                                      "scrollbar.thumb.hover_background":  "#D1D1D680",
                                      "scrollbar.thumb.border":  "#00000000",
-                                     "scrollbar.track.background":  "#F2F2F766",
-                                     "scrollbar.track.border":  "#00000000",
-                                     "editor.foreground":  "#1C1C1EFF",
-                                     "editor.background":  "#FFFFFFF2",
-                                     "editor.gutter.background":  "#FBFBFDEE",
-                                     "editor.subheader.background":  "#FAFAFCEE",
-                                     "editor.active_line.background":  "#7659C70D",
-                                     "editor.highlighted_line.background":  "#E8E2F5A8",
-                                     "editor.line_number":  "#636366FF",
-                                     "editor.active_line_number":  "#1C1C1EFF",
-                                     "editor.invisible":  "#AEAEB2FF",
-                                     "editor.wrap_guide":  "#D1D1D6FF",
+                                      "scrollbar.track.background":  "#00000000",
+                                      "scrollbar.track.border":  "#00000000",
+                                      "minimap.thumb.background":  "#D1D1D633",
+                                      "minimap.thumb.border":  "#00000000",
+                                      "editor.foreground":  "#11131BFF",
+                                      "editor.background":  "#F2F2F4E6",
+                                      "editor.gutter.background":  "#F2F2F4E6",
+                                      "editor.subheader.background":  "#F2F2F4E6",
+                                      "editor.active_line.background":  "#00000000",
+                                      "editor.highlighted_line.background":  "#00000000",
+                                      "editor.line_number":  "#53536BFF",
+                                      "editor.active_line_number":  "#11131BFF",
+                                      "editor.invisible":  "#9698A5FF",
+                                      "editor.wrap_guide":  "#C2C3CEFF",
                                      "editor.active_wrap_guide":  "#A99CDBFF",
                                      "editor.document_highlight.read_background":  "#006C9224",
                                      "editor.document_highlight.write_background":  "#6544D62A",
                                      "editor.document_highlight.bracket_background":  "#6544D622",
-                                     "editor.indent_guide":  "#D1D1D6FF",
+                                      "editor.indent_guide":  "#C2C3CEFF",
                                      "editor.indent_guide_active":  "#A99CDBFF",
                                      "link_text.hover":  "#006C92FF",
                                      "conflict":  "#8B5A00FF",
@@ -126,11 +128,11 @@
                                      "warning":  "#8B5A00FF",
                                      "warning.background":  "#B7791F12",
                                      "warning.border":  "#A66A00FF",
-                                     "terminal.background":  "#FFFFFFF2",
-                                     "terminal.foreground":  "#1C1C1EFF",
+                                      "terminal.background":  "#F2F2F4E6",
+                                      "terminal.foreground":  "#1A1B25FF",
                                      "terminal.bright_foreground":  "#1F202AFF",
-                                     "terminal.dim_foreground":  "#636366FF",
-                                     "terminal.ansi.background":  "#FFFFFFF2",
+                                      "terminal.dim_foreground":  "#4A4A55FF",
+                                      "terminal.ansi.background":  "#F2F2F4E6",
                                      "terminal.ansi.black":  "#2B2D3AFF",
                                      "terminal.ansi.bright_black":  "#686A78FF",
                                      "terminal.ansi.dim_black":  "#777985FF",
@@ -152,9 +154,9 @@
                                      "terminal.ansi.cyan":  "#00718BFF",
                                      "terminal.ansi.bright_cyan":  "#008EAAFF",
                                      "terminal.ansi.dim_cyan":  "#4B717AFF",
-                                     "terminal.ansi.white":  "#5E6070FF",
-                                     "terminal.ansi.bright_white":  "#30313DFF",
-                                     "terminal.ansi.dim_white":  "#636366FF",
+                                      "terminal.ansi.white":  "#3F4153FF",
+                                      "terminal.ansi.bright_white":  "#11131BFF",
+                                      "terminal.ansi.dim_white":  "#55566BFF",
                                      "players":  [
                                                      {
                                                          "cursor":  "#6544D6",
@@ -194,232 +196,232 @@
                                                  ],
                                      "syntax":  {
                                                     "string.escape":  {
-                                                                          "color":  "#B0185C",
+                                                                          "color":  "#B20E5B",
                                                                           "font_style":  null,
                                                                           "font_weight":  null
                                                                       },
                                                     "punctuation.list_marker":  {
-                                                                                    "color":  "#006C92",
+                                                                                    "color":  "#00698F",
                                                                                     "font_style":  null,
                                                                                     "font_weight":  null
                                                                                 },
                                                     "comment.doc":  {
-                                                                        "color":  "#5D557F",
+                                                                        "color":  "#5B537F",
                                                                         "font_style":  "italic",
                                                                         "font_weight":  null
                                                                     },
                                                     "constant":  {
-                                                                     "color":  "#5B3EC4",
+                                                                     "color":  "#5D31C4",
                                                                      "font_style":  null,
                                                                      "font_weight":  null
                                                                  },
                                                     "property":  {
-                                                                     "color":  "#006C92",
+                                                                     "color":  "#00698F",
                                                                      "font_style":  null,
                                                                      "font_weight":  null
                                                                  },
                                                     "hint":  {
-                                                                 "color":  "#6544D6",
+                                                                 "color":  "#6A37D0",
                                                                  "font_style":  null,
                                                                  "font_weight":  700
                                                              },
                                                     "tag":  {
-                                                                "color":  "#B0185C",
+                                                                "color":  "#B20E5B",
                                                                 "font_style":  null,
                                                                 "font_weight":  null
                                                             },
                                                     "string.regex":  {
-                                                                         "color":  "#C1263A",
+                                                                         "color":  "#B02039",
                                                                          "font_style":  null,
                                                                          "font_weight":  null
                                                                      },
                                                     "emphasis":  {
-                                                                     "color":  "#805C00",
+                                                                     "color":  "#835600",
                                                                      "font_style":  "italic",
                                                                      "font_weight":  null
                                                                  },
                                                     "preproc":  {
-                                                                    "color":  "#A11E59",
+                                                                    "color":  "#A20F55",
                                                                     "font_style":  null,
                                                                     "font_weight":  600
                                                                 },
                                                     "enum":  {
-                                                                 "color":  "#5B3EC4",
+                                                                 "color":  "#5D31C4",
                                                                  "font_style":  null,
                                                                  "font_weight":  null
                                                              },
                                                     "variable.parameter":  {
-                                                                               "color":  "#A83B00",
+                                                                               "color":  "#A23D00",
                                                                                "font_style":  "italic",
                                                                                "font_weight":  null
                                                                            },
                                                     "variable.member":  {
-                                                                            "color":  "#006C92",
+                                                                            "color":  "#00698F",
                                                                             "font_style":  null,
                                                                             "font_weight":  null
                                                                         },
                                                     "operator":  {
-                                                                     "color":  "#A11E59",
+                                                                     "color":  "#A20F55",
                                                                      "font_style":  null,
                                                                      "font_weight":  null
                                                                  },
                                                     "function":  {
-                                                                     "color":  "#08743D",
+                                                                     "color":  "#05723B",
                                                                      "font_style":  null,
                                                                      "font_weight":  null
                                                                  },
                                                     "boolean":  {
-                                                                    "color":  "#B0185C",
+                                                                    "color":  "#B20E5B",
                                                                     "font_style":  null,
                                                                     "font_weight":  null
                                                                 },
                                                     "constant.builtin":  {
-                                                                             "color":  "#B0185C",
+                                                                             "color":  "#B20E5B",
                                                                              "font_style":  null,
                                                                              "font_weight":  null
                                                                          },
                                                     "link_uri":  {
-                                                                     "color":  "#006C92",
+                                                                     "color":  "#00698F",
                                                                      "font_style":  null,
                                                                      "font_weight":  null
                                                                  },
                                                     "string.special":  {
-                                                                           "color":  "#B0185C",
+                                                                           "color":  "#B20E5B",
                                                                            "font_style":  null,
                                                                            "font_weight":  null
                                                                        },
                                                     "type.interface":  {
-                                                                           "color":  "#006C92",
+                                                                           "color":  "#00698F",
                                                                            "font_style":  "italic",
                                                                            "font_weight":  null
                                                                        },
                                                     "label":  {
-                                                                  "color":  "#A83B00",
+                                                                  "color":  "#A23D00",
                                                                   "font_style":  "italic",
                                                                   "font_weight":  null
                                                               },
                                                     "emphasis.strong":  {
-                                                                            "color":  "#A83B00",
+                                                                            "color":  "#A23D00",
                                                                             "font_style":  null,
                                                                             "font_weight":  700
                                                                         },
                                                     "comment":  {
-                                                                    "color":  "#635D87",
+                                                                    "color":  "#5B537F",
                                                                     "font_style":  null,
                                                                     "font_weight":  null
                                                                 },
                                                     "variant":  {
-                                                                    "color":  "#5B3EC4",
+                                                                    "color":  "#5D31C4",
                                                                     "font_style":  null,
                                                                     "font_weight":  null
                                                                 },
                                                     "embedded":  {
-                                                                     "color":  "#30313F",
+                                                                     "color":  "#11131B",
                                                                      "font_style":  null,
                                                                      "font_weight":  null
                                                                  },
                                                     "punctuation.special":  {
-                                                                                "color":  "#A11E59",
+                                                                                "color":  "#A20F55",
                                                                                 "font_style":  null,
                                                                                 "font_weight":  null
                                                                             },
                                                     "punctuation.bracket":  {
-                                                                                "color":  "#6544D6",
+                                                                                "color":  "#6A37D0",
                                                                                 "font_style":  null,
                                                                                 "font_weight":  null
                                                                             },
                                                     "type.super":  {
-                                                                       "color":  "#006C92",
+                                                                       "color":  "#00698F",
                                                                        "font_style":  "italic",
                                                                        "font_weight":  null
                                                                    },
                                                     "type.builtin":  {
-                                                                         "color":  "#843599",
+                                                                         "color":  "#7D3293",
                                                                          "font_style":  null,
                                                                          "font_weight":  500
                                                                      },
                                                     "punctuation.delimiter":  {
-                                                                                  "color":  "#686A78",
+                                                                                  "color":  "#5B5D70",
                                                                                   "font_style":  null,
                                                                                   "font_weight":  null
                                                                               },
                                                     "text.literal":  {
-                                                                         "color":  "#08743D",
+                                                                         "color":  "#05723B",
                                                                          "font_style":  null,
                                                                          "font_weight":  null
                                                                      },
                                                     "number":  {
-                                                                   "color":  "#5B3EC4",
+                                                                   "color":  "#5D31C4",
                                                                    "font_style":  null,
                                                                    "font_weight":  null
                                                                },
                                                     "string.special.symbol":  {
-                                                                                  "color":  "#5B3EC4",
+                                                                                  "color":  "#5D31C4",
                                                                                   "font_style":  null,
                                                                                   "font_weight":  null
                                                                               },
                                                     "attribute":  {
-                                                                      "color":  "#6C3CB8",
+                                                                      "color":  "#6837C7",
                                                                       "font_style":  null,
                                                                       "font_weight":  null
                                                                   },
                                                     "variable.special":  {
-                                                                             "color":  "#5B3EC4",
+                                                                             "color":  "#5D31C4",
                                                                              "font_style":  "italic",
                                                                              "font_weight":  null
                                                                          },
                                                     "variable":  {
-                                                                     "color":  "#30313F",
+                                                                     "color":  "#11131B",
                                                                      "font_style":  null,
                                                                      "font_weight":  null
                                                                  },
                                                     "string":  {
-                                                                   "color":  "#805C00",
+                                                                   "color":  "#835600",
                                                                    "font_style":  null,
                                                                    "font_weight":  null
                                                                },
                                                     "tag.doctype":  {
-                                                                        "color":  "#625D78",
+                                                                        "color":  "#5D5684",
                                                                         "font_style":  "italic",
                                                                         "font_weight":  null
                                                                     },
                                                     "constructor":  {
-                                                                        "color":  "#006C92",
+                                                                        "color":  "#00698F",
                                                                         "font_style":  null,
                                                                         "font_weight":  null
                                                                     },
                                                     "keyword":  {
-                                                                    "color":  "#B0185C",
+                                                                    "color":  "#B20E5B",
                                                                     "font_style":  null,
                                                                     "font_weight":  500
                                                                 },
                                                     "punctuation":  {
-                                                                        "color":  "#686A78",
+                                                                        "color":  "#5B5D70",
                                                                         "font_style":  null,
                                                                         "font_weight":  null
                                                                     },
                                                     "type":  {
-                                                                 "color":  "#006C92",
+                                                                 "color":  "#00698F",
                                                                  "font_style":  null,
                                                                  "font_weight":  500
                                                              },
                                                     "link_text":  {
-                                                                      "color":  "#B0185C",
+                                                                      "color":  "#B20E5B",
                                                                       "font_style":  "normal",
                                                                       "font_weight":  null
                                                                   },
                                                     "primary":  {
-                                                                    "color":  "#30313F",
+                                                                    "color":  "#11131B",
                                                                     "font_style":  null,
                                                                     "font_weight":  null
                                                                 },
                                                     "predictive":  {
-                                                                       "color":  "#696971",
+                                                                       "color":  "#5F606D",
                                                                        "font_style":  "italic",
                                                                        "font_weight":  null
                                                                    },
                                                     "title":  {
-                                                                  "color":  "#6544D6",
+                                                                  "color":  "#6A37D0",
                                                                   "font_style":  null,
                                                                   "font_weight":  600
                                                               }
